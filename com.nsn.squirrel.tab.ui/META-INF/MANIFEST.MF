@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ui
+Bundle-SymbolicName: com.nsn.squirrel.tab.ui
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: NSN
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_uPs3sK9VEeSHL9JxSiHtbA" elementId="org.eclipse.e4.ide.application" bindingContexts="_uPs3ua9VEeSHL9JxSiHtbA">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_uPs3sa9VEeSHL9JxSiHtbA" elementId="com.nsn.squirrel.trimmedwindow" label="Squirrel" width="1000" height="600">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_uPte0q9VEeSHL9JxSiHtbA">
+      <children xsi:type="advanced:Perspective" xmi:id="_uPte069VEeSHL9JxSiHtbA" elementId="com.nsn.squirrel.app.perspective.main" label="main perspective">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_uPte1K9VEeSHL9JxSiHtbA">
+          <children xsi:type="basic:PartStack" xmi:id="_uPte1a9VEeSHL9JxSiHtbA">
+            <children xsi:type="basic:Part" xmi:id="_uPte1q9VEeSHL9JxSiHtbA" contributionURI="bundleclass://com.nsn.squirrel.app/com.nsn.squirrel.app.parts.SamplePart" label="Sample Part"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_uPtey69VEeSHL9JxSiHtbA" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_uPtezK9VEeSHL9JxSiHtbA" elementId="org.eclipse.ui.file.menu" label="Main"/>
+      <children xsi:type="menu:Menu" xmi:id="_RQeLcK9ZEeSHL9JxSiHtbA" elementId="com.nsn.squirrel.app.menu.tabs" label="Tabs"/>
+      <children xsi:type="menu:Menu" xmi:id="_uPte0K9VEeSHL9JxSiHtbA" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_uPte0a9VEeSHL9JxSiHtbA" label="About" command="_uPteyK9VEeSHL9JxSiHtbA"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_uPuF0K9VEeSHL9JxSiHtbA" elementId="com.nsn.squirrel.app.trimbar.main">
+      <children xsi:type="menu:ToolBar" xmi:id="_uPuF0a9VEeSHL9JxSiHtbA" elementId="com.nsn.squirrel.app.toolbar.main"/>
+    </trimBars>
+  </children>
+  <bindingTables xmi:id="_uPtewK9VEeSHL9JxSiHtbA" bindingContext="_uPs3ua9VEeSHL9JxSiHtbA"/>
+  <rootContext xmi:id="_uPs3ua9VEeSHL9JxSiHtbA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_uPs3uq9VEeSHL9JxSiHtbA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_uPs3u69VEeSHL9JxSiHtbA" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <addons xmi:id="_uPs3sq9VEeSHL9JxSiHtbA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_uPs3s69VEeSHL9JxSiHtbA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_uPs3tK9VEeSHL9JxSiHtbA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_uPs3ta9VEeSHL9JxSiHtbA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_uPs3tq9VEeSHL9JxSiHtbA" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_uPs3t69VEeSHL9JxSiHtbA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_uPs3uK9VEeSHL9JxSiHtbA" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

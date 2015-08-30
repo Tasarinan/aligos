@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="EclipseSquirrel"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="appName"
+               value="EclipseSquirrel">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/com.nsn.squirrel.app/css/default.css">
+         </property>
+         <property
+               name="applicationXMI"
+               value="com.nsn.squirrel.app/Application.e4xmi">
+         </property>
+         <property
+               name="clearPersistedState"
+               value="true">
+         </property>
+         <property
+               name="preferenceCustomization"
+               value="com.nsn.squirrel.app.property4">
+         </property>
+         <property
+               name="lifeCycleURI"
+               value="bundleclass://com.nsn.squirrel.app/com.nsn.squirrel.app.lifecycle.LifeCycleManager">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
